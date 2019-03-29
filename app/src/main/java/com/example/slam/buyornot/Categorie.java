@@ -5,7 +5,9 @@ import java.util.ArrayList;
 public class Categorie {
     private int cat_id;
     private String cat_libelle;
+
     private ArrayList<Produit> lesProduits;
+
     // Constructeur
     public Categorie(int id,String libelle) {
         this.cat_id=id;

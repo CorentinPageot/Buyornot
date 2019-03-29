@@ -5,7 +5,9 @@ import java.util.ArrayList;
 public class Code_emballeur {
     private int cod_id;
     private String cod_libelle;
+
     private ArrayList<Produit> lesProduits;
+
     // Constructeur
     public Code_emballeur(int id,String libelle) {
         this.cod_id=id;

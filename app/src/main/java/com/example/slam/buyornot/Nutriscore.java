@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Nutriscore {
     private int nut_id;
     private String nut_libelle;
+
     // Constructeur
     public Nutriscore(int id,String libelle) {
         this.nut_id=id;

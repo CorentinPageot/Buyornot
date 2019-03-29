@@ -6,7 +6,9 @@ public class Label {
 
     private int lab_id;
     private String lab_libelle;
+
     private ArrayList<Produit> lesProduits;
+
     // Constructeur
     public Label(int id,String libelle) {
         this.lab_id=id;

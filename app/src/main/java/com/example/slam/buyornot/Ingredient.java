@@ -5,7 +5,9 @@ import java.util.ArrayList;
 public class Ingredient {
     private int ing_id;
     private String ing_libelle;
+
     private ArrayList<Produit> lesProduits;
+
     // Constructeur
     public Ingredient(int id,String libelle) {
         this.ing_id=id;

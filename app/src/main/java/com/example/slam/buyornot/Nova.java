@@ -3,6 +3,7 @@ package com.example.slam.buyornot;
 public class Nova {
     private int nov_id;
     private String nov_libelle;
+
     // Constructeur
     public Nova(int id,String libelle) {
         this.nov_id=id;

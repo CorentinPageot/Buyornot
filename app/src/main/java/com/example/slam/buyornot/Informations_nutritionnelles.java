@@ -4,8 +4,10 @@ public class Informations_nutritionnelles {
     private String inu_nutriment;
     private String inu_produit;
     private int inu_quantite;
+
     private Produit produit;
     private Nutriment nutriment;
+
 
     // Constructeur
     public Informations_nutritionnelles(String nutriment,String produit, int quantite) {

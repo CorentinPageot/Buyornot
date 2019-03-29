@@ -5,7 +5,9 @@ import java.util.ArrayList;
 public class Origine {
     private int ori_id;
     private String ori_libelle;
+
     private ArrayList<Produit> lesProduits;
+
     // Constructeur
     public Origine(int id,String libelle) {
         this.ori_id=id;

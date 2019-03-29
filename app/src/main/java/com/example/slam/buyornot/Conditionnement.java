@@ -5,7 +5,9 @@ import java.util.ArrayList;
 public class Conditionnement {
     private int con_id;
     private String con_libelle;
+
     private ArrayList<Produit> lesProduits;
+
     // Constructeur
     public Conditionnement(int id,String libelle) {
         this.con_id=id;

@@ -5,7 +5,9 @@ import java.util.ArrayList;
 public class Pays {
     private int pay_id;
     private String pay_libelle;
+
     private ArrayList<Produit> lesProduits;
+
 
     // Constructeur
     public Pays(int id,String libelle) {
