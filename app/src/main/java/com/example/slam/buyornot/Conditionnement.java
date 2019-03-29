@@ -3,6 +3,7 @@ package com.example.slam.buyornot;
 public class Conditionnement {
     private int con_id;
     private String con_libelle;
+
     // Constructeur
     public Conditionnement(int id,String libelle) {
         this.con_id=id;

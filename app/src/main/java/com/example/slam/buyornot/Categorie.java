@@ -3,6 +3,7 @@ package com.example.slam.buyornot;
 public class Categorie {
     private int cat_id;
     private String cat_libelle;
+
     // Constructeur
     public Categorie(int id,String libelle) {
         this.cat_id=id;

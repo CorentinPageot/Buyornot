@@ -3,6 +3,7 @@ package com.example.slam.buyornot;
 public class Origine {
     private int ori_id;
     private String ori_libelle;
+
     // Constructeur
     public Origine(int id,String libelle) {
         this.ori_id=id;

@@ -3,6 +3,7 @@ package com.example.slam.buyornot;
 public class Pays {
     private int pay_id;
     private String pay_libelle;
+
     // Constructeur
     public Pays(int id,String libelle) {
         this.pay_id=id;

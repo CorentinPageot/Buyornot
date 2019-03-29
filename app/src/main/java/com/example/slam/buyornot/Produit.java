@@ -22,6 +22,10 @@ public class Produit {
     private ArrayList<Categorie> lesCategories;
 
     // Constructeur
+    public Produit() {
+
+    }
+
     public Produit(int id,String nom,int quantite,String denomination,String lien) {
         this.pro_id=id;
         this.pro_nom=nom;
@@ -71,6 +75,7 @@ public class Produit {
     public void setPro_denomination(String denomination) {
         this.pro_denomination = denomination;
     }
+
     public ArrayList<Label> getLesLabels() {
         return lesLabels;
     }
