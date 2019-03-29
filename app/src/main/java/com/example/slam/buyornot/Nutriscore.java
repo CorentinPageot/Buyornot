@@ -1,5 +1,7 @@
 package com.example.slam.buyornot;
 
+import java.util.ArrayList;
+
 public class Nutriscore {
     private int nut_id;
     private String nut_libelle;
@@ -21,4 +23,5 @@ public class Nutriscore {
     public void setNut_libelle(String libelle) {
         this.nut_libelle = libelle;
     }
+
 } // class Nutriscore

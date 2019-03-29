@@ -20,6 +20,9 @@ public class Produit {
     private ArrayList<Ingredient> lesIngredients;
     private ArrayList<Magasin> lesMagasins;
     private ArrayList<Categorie> lesCategories;
+    private Nova nova;
+    private Nutriscore nutriscore;
+    private Marque marque;
 
     // Constructeur
     public Produit() {
@@ -184,6 +187,31 @@ public class Produit {
         }
         lesCategories.add(uneCategorie);
     }
+
+    public Nova getNova() {
+        return nova;
+    }
+
+    public void setNova(Nova nova) {
+        this.nova = nova;
+    }
+
+    public Nutriscore getNutriscore() {
+        return nutriscore;
+    }
+
+    public void setNutriscore(Nutriscore nutriscore) {
+        this.nutriscore = nutriscore;
+    }
+
+    public Marque getMarque() {
+        return marque;
+    }
+
+    public void setMarque(Marque marque) {
+        this.marque = marque;
+    }
+
 
 } // class Produit
 
